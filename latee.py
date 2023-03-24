@@ -1,0 +1,16 @@
+numbers = list(map(int, input("Enter 5 numbers: ").split()))
+sumofnum= sum(numbers)
+print("your numbers are: ",numbers)
+print("sum of numbers are: ",sumofnum)
+x = open("python.txt","a+")
+x.write(str(numbers[0])+"\n")
+x.write(str(numbers[1])+"\n")
+x.write(str(numbers[2])+"\n")
+x.write(str(numbers[3])+"\n")
+x.write(str(numbers[4])+"\n")
+x.write(str(sumofnum)+"\n")
+x.close()
+x = open("python.txt", "r")
+print(x.read())
+
+

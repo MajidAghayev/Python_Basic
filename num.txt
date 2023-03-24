@@ -1,0 +1,6 @@
+2
+2
+5
+6
+8
+The sum of your numbers is:23
